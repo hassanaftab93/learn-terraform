@@ -43,11 +43,9 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
 
   Step 1
   ```bash
-    commands / code
-  ```
-  Step 2
-  ```bash
-    commands / code
+    terraform init
+    terraform apply
+    terraform destroy
   ```
 </details>
 
