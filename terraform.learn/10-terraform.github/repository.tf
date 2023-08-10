@@ -7,6 +7,6 @@ resource "github_repository" "repo" {
   template {
     owner                = "${var.repoOwner}"
     repository           = "${var.repoTemplateList[1]}"
-    include_all_branches = "${var.include_all_branches}"
+    include_all_branches = false
   }
 }
