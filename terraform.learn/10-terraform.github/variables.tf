@@ -1,3 +1,7 @@
+variable "githubToken" {
+    type = string
+}
+
 variable "repoName" {
     type = string
 }
