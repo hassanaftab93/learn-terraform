@@ -5,3 +5,8 @@ variable "usersage" {
         aftab = 19
     }
 }
+
+variable "username" {
+    type = string
+    default = "hassan"
+}
