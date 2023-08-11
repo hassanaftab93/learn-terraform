@@ -1,5 +1,5 @@
-# Token has expired, its useless, if you are reading this :)
-githubToken = ""
+# githubToken - exported in bash using  export TF_VAR_githubToken=$(cat ~/.ssh/github-terraform-token)
+
 repoName = "Repository-Created-By-Terraform-Demo"
 repoDescription = "Example Description by Terraform.tfvars"
 repoVisibility = "public"
